@@ -1,14 +1,11 @@
 {
   "name": "flowagent",
   "version": "1.0.0",
-  "description": "AI Agent for autonomous USDC payments via WhatsApp — ETHGlobal Open Agents 2026",
+  "description": "AI Agent for autonomous USDC payments via WhatsApp",
   "type": "module",
   "main": "src/bot/index.js",
   "scripts": {
-    "start": "node src/bot/index.js",
-    "test:agent": "node src/agent/flowagent.js"
+    "start": "node src/bot/index.js"
   },
-  "keywords": ["ai-agent", "web3", "whatsapp", "usdc", "latam"],
-  "author": "Alan Enriquez <@ACryp0b>",
   "license": "MIT"
 }
